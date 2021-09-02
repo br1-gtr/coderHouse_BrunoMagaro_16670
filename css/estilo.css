@@ -119,8 +119,8 @@ p {
 
 .imgRrss {
   padding: 0.5rem;
-  width: 3rem;
-  height: 3rem; }
+  width: 4rem;
+  height: 4rem; }
 
 .imgRrssContact {
   padding: 0.5rem;
@@ -140,19 +140,16 @@ p {
     background-color: rgba(240, 255, 255, 0.568);
     border-radius: 50%; }
 
-.border_dashed {
-  border: 3px dashed black; }
-
 /*Footer*/
 .footer {
   margin: 0.5rem 1rem;
   text-align: center;
-  color: white; }
-  .footer_msj {
-    border-bottom: dashed 3px white;
-    border-right: dashed 3px white; }
-  .footer_rrss {
-    border-bottom: dashed 3px white; }
+  color: white;
+  /*&_msj{
+        border-bottom: dashed 3px white;
+        border-right: dashed 3px white;
+    }
+    &_rrss{border-bottom: dashed 3px white;}*/ }
 
 .exit {
   height: auto; }
@@ -180,7 +177,7 @@ p {
     margin: 0.1rem;
     padding: 0; }
   .main_title-size {
-    font-size: 6rem; }
+    font-size: 4.5rem; }
   p {
     font-size: 1.7rem; } }
 

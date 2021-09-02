@@ -100,8 +100,8 @@ p{font-size: 1.8rem;}
 }
 .imgRrss{
     padding: 0.5rem;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
 }
 .imgRrssContact{
     padding: 0.5rem;
@@ -122,19 +122,16 @@ p{font-size: 1.8rem;}
         border-radius: 50%;
     }
 }
-.border_dashed{
-    border: 3px dashed black;
-}
 /*Footer*/
 .footer{
     margin: 0.5rem 1rem;
     text-align: center;
     color: $colorMain;
-    &_msj{
+    /*&_msj{
         border-bottom: dashed 3px white;
         border-right: dashed 3px white;
     }
-    &_rrss{border-bottom: dashed 3px white;}
+    &_rrss{border-bottom: dashed 3px white;}*/
 }
 .exit{
     height: auto;
