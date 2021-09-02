@@ -1,0 +1,215 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Pangolin', cursive; }
+
+.container-fluid {
+  padding: 0rem 1rem;
+  background: radial-gradient(circle, white 0%, #2d2d2d 60%, black 100%);
+  min-height: 850px; }
+
+.header, .main, .footer {
+  margin: 0px; }
+
+.header {
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-color: white; }
+
+p {
+  font-size: 1.8rem; }
+
+/*NAV*/
+.nav {
+  font-size: 2.5rem; }
+  .nav-item, .cardLevels_btn {
+    margin-top: 0.5rem;
+    background-color: rgba(211, 212, 209, 0.192);
+    border-radius: 3rem 1rem;
+    border-bottom: 2px solid rgba(3, 255, 3, 0); }
+    .nav-item a, .cardLevels_btn a {
+      color: black;
+      text-transform: uppercase; }
+    .nav-item:hover, .cardLevels_btn:hover {
+      background-color: rgba(211, 212, 209, 0.383);
+      border-bottom: 2px solid rgba(3, 255, 3, 0.561);
+      transition: 0.5s; }
+      .nav-item:hover img, .cardLevels_btn:hover img {
+        transform: rotateZ(15deg);
+        transition: 1s; }
+
+/*Main*/
+.main {
+  height: 75%;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background-color: white;
+  border-bottom: 4px solid rgba(3, 255, 3, 0.561); }
+  .main_title-size {
+    font-size: 5rem; }
+  .main_subTitle-size {
+    font-size: 3rem; }
+
+/*CARDS*/
+.cardImgInfo {
+  height: 86%;
+  border: solid 2px black;
+  border-radius: 2rem;
+  background-color: rgba(148, 148, 148, 0.123); }
+
+.divTop {
+  height: 5%; }
+
+.footer {
+  height: 12%; }
+
+/*Levels*/
+.cardLevels {
+  height: auto; }
+  .cardLevels_btn {
+    /*EXTEND*/
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem; }
+  .cardLevels_art {
+    padding: 0.5rem;
+    background-color: #e0f690;
+    /*Error... con RGBA*/
+    border-radius: 2rem;
+    border: 2px solid rgba(170, 170, 170, 0.335);
+    animation-duration: 1.2s;
+    animation-name: show; }
+    .cardLevels_art-green {
+      background-color: #58f37f; }
+    .cardLevels_art-yellow {
+      background-color: rgba(251, 251, 102, 0.835); }
+    .cardLevels_art-red {
+      background-color: rgba(253, 82, 82, 0.794); }
+
+@keyframes show {
+  /*Animacion APARECER*/
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.cardLevels .btn:hover {
+  background-color: #c1fbc1;
+  transition: 0.2s; }
+
+/*Carrusel*/
+.w-3 {
+  width: 3%; }
+
+.w-98 {
+  width: 98%; }
+
+.h-98 {
+  height: 98%; }
+
+.info-tab {
+  background-color: rgba(0, 255, 170, 0.472);
+  color: black; }
+
+/*Imagenes -Iconos*/
+.iconMobileNav {
+  width: 5rem;
+  margin: 0.1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgba(3, 255, 3, 0.561); }
+
+.imgRrss {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem; }
+
+.imgRrssContact {
+  padding: 0.5rem;
+  width: 6rem;
+  height: 6rem; }
+
+.iconosFloat {
+  top: 23rem;
+  right: 0;
+  z-index: 10;
+  width: auto; }
+  .iconosFloat .iconMobile {
+    width: 6rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid rgba(3, 255, 3, 0.561);
+    background-color: rgba(240, 255, 255, 0.568);
+    border-radius: 50%; }
+
+.border_dashed {
+  border: 3px dashed black; }
+
+/*Footer*/
+.footer {
+  margin: 0.5rem 1rem;
+  text-align: center;
+  color: white; }
+  .footer_msj {
+    border-bottom: dashed 3px white;
+    border-right: dashed 3px white; }
+  .footer_rrss {
+    border-bottom: dashed 3px white; }
+
+.exit {
+  height: auto; }
+
+.exit_infoDs {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  margin: 0rem;
+  bottom: 0; }
+  .exit_infoDs span {
+    color: #fcff31; }
+
+/*RESPONSIVE*/
+/*Adaptacion pre-xs*/
+@media screen and (max-width: 1127px) {
+  /*.nav{font-size: 1.8rem;} Vir si funciona el anidamiento*/
+  nav {
+    padding: 0 !important; }
+  .nav li a {
+    padding: 0.5rem;
+    font-size: 1.8rem; }
+  .iconMobileNav {
+    width: 3.6rem;
+    margin: 0.1rem;
+    padding: 0; }
+  .main_title-size {
+    font-size: 6rem; }
+  p {
+    font-size: 1.7rem; } }
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    min-height: 720px;
+    min-width: 440px;
+    padding: 0rem; }
+  .main {
+    border-radius: 0rem;
+    height: 84%;
+    border-top: 4px solid rgba(3, 255, 3, 0.561); }
+    .main_title-size {
+      font-size: 4rem; }
+  .divTop {
+    height: 5%; }
+  .cardImgInfo_img {
+    margin: 1.5rem;
+    height: 30%; }
+  .cardImgInfo_info {
+    height: 70%; }
+  .card-img-img {
+    height: 95%; }
+  .footer {
+    height: auto; }
+    .footer_rrss {
+      margin: 0rem; }
+      .footer_rrss p {
+        margin: 0rem; }
+    .footer_info {
+      margin: 1rem; } }

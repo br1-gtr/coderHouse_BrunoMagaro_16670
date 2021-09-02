@@ -1,0 +1,149 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62,5%;
+    font-family: 'Rubik', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+*/
+html{font-size: 62.5%;}
+.container-fluid{
+    padding: 1rem;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(45,45,45,1) 60%, rgba(0,0,0,1) 100%);
+    min-height: 850px;
+}
+.header,.main,.footer{margin: 0px;}
+.header{
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-color: rgb(255, 255, 255);
+}
+p{font-size: 2rem;}
+/*NAV*/
+.nav{font-size: 2.5rem;}
+.nav-item{
+    margin-top: 0.5rem;
+    background-color: rgba(211, 212, 209, 0.192);
+    border-radius: 3rem 1rem;
+    border-bottom: 2px solid rgba(3, 255, 3, 0);
+}
+.nav-item:hover{
+    background-color: rgba(211, 212, 209, 0.383);
+    border-bottom: 2px solid rgba(3, 255, 3, 0.561);
+    transition: 0.5s;
+}
+.nav-item a{
+    color: black;
+    text-transform: uppercase;
+}
+/*Main*/
+.main{
+    height: 75%;
+    border-radius: 0 0 1.5rem 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgba(3, 255, 3, 0.561);
+}
+h1{font-size: 7rem;}
+h2{font-size: 3rem;}
+/*------*/
+/*CARDS*/
+.card-img-info{
+    height: 86%;
+    border: solid 2px black;
+    border-radius: 2rem;
+    background-color: rgba(148, 148, 148, 0.123);
+}
+.divTop,.footer{height: 10%;}
+/*Levels*/
+.cardLevels{height: auto;}   
+.cardLevels .btn{
+    padding: 0.5rem 1rem;
+    border: 2px solid rgba(172, 255, 47, 0);
+    background-color: rgb(86, 206, 160);
+    border-radius: 0.6rem 1.2rem;
+    font-size: 1.5rem;
+}
+.cardLevels .btn:hover{
+    background-color: rgb(193, 251, 193);
+    transition: 0.2s;
+}
+.cardLevels article{
+    padding: 0.5rem;
+    background-color: rgb(132, 237, 100,0.2);
+    border-radius: 2rem;
+    border: 2px solid rgba(170, 170, 170, 0.335);
+}
+/*Carrusel*/
+.w-3{width: 3%;}
+.w-98{width: 98%;}
+.h-98{height: 98%;}
+.info-tab{
+    background-color: rgba(0, 255, 170, 0.472);
+    color: black;
+}
+/*Imagenes -Iconos*/
+.iconMobileNav{ 
+    width: 5rem;
+    margin: 0.1rem;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.imgRrss{
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+.iconMobile{ 
+    width: 6rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid rgba(3, 255, 3, 0.561);
+    background-color: rgba(240, 255, 255, 0.568);
+    border-radius: 50%;
+}
+.iconosFloat{
+    top: 23rem;
+    right: 0;
+    z-index: 10;
+    width: auto;
+}
+/*RESPONSIVE*/
+/*Adaptacion pre-xs*/
+@media screen and (max-width: 1127px ){
+    .nav{font-size: 1.8rem;}
+    nav{padding: 0 !important;}
+    .nav li a{ padding: 0.5rem;}
+    .iconMobileNav{ 
+        width: 3rem;
+        margin: 0.1rem;
+        padding: 0;
+        background-color: rgba(240, 255, 255, 0.568);
+        border-radius: 50%;
+    }
+    h1{font-size: 6rem;}
+    p{font-size: 1.7rem;}
+}
+/*Mobile*/
+@media screen and (max-width: 767px ){
+    .container-fluid{
+        min-height: 720px;
+        min-width: 440px;
+    }
+    h1{font-size: 4rem;}
+    .main{
+        border-radius: 0rem;
+        height: 88%;
+        border-top: 4px solid rgba(3, 255, 3, 0.561);
+    }
+    .container-fluid{padding: 0rem;}
+    .divTop, .footer{height: 5%;}
+    .card-img{ 
+        margin:1.5rem;
+        height:30%;}
+    .card-info{height:70%}
+    .card-img-img{height: 95%;}
+}

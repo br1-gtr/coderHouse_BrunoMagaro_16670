@@ -1,0 +1,48 @@
+/*RESPONSIVE*/
+/*Adaptacion pre-xs*/
+@media screen and (max-width: 1127px){
+    /*.nav{font-size: 1.8rem;} Vir si funciona el anidamiento*/
+    nav{padding: 0 !important;}
+    .nav li a{ 
+            padding: 0.5rem;
+            font-size: 1.8rem;
+    }
+    .iconMobileNav{ 
+        width: 3.6rem;
+        margin: 0.1rem;
+        padding: 0;
+    }
+    .main_title-size{font-size: 6rem;}
+    p{font-size: 1.7rem;}
+}
+/*Mobile*/
+@media screen and (max-width: 767px ){
+    .container-fluid{
+        min-height: 720px;
+        min-width: 440px;
+        padding: 0rem;
+    }
+    .main{
+        border-radius: 0rem;
+        height: 84%;
+        border-top: 4px solid rgba(3, 255, 3, 0.561);
+        &_title-size{font-size: 4rem;}
+    }
+    .divTop{height: 5%;}
+    .cardImgInfo{
+        &_img{
+            margin:1.5rem;
+            height:30%;
+        }
+        &_info{height:70%}
+    }
+    .card-img-img{height: 95%;}
+    .footer{
+        height: auto;
+        &_rrss{
+            margin: 0rem;
+            p{margin: 0rem;}
+            }
+        &_info{margin: 1rem;}
+    }
+}
