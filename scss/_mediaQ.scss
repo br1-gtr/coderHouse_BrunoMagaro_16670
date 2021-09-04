@@ -13,7 +13,10 @@
         padding: 0;
     }
     .main_title-size{font-size: 4.5rem;}
-    p{font-size: 1.7rem;}
+    p{
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
 }
 /*Mobile*/
 @media screen and (max-width: 767px ){
@@ -44,5 +47,11 @@
             p{margin: 0rem;}
             }
         &_info{margin: 1rem;}
+    }
+    h1{
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    p{
+        line-height: 2.2rem;
     }
 }
