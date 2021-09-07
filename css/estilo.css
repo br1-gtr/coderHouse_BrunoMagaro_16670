@@ -120,6 +120,10 @@ p {
   border-radius: 50%;
   background-color: rgba(3, 255, 3, 0.561); }
 
+.foto-br1 {
+  border-radius: 50%;
+  border: 1rem solid rgba(3, 255, 3, 0.561); }
+
 .imgRrss {
   padding: 0.5rem;
   width: 4rem;
@@ -168,7 +172,7 @@ p {
 
 /*RESPONSIVE*/
 /*Adaptacion pre-xs*/
-@media screen and (max-width: 1127px) {
+@media screen and (max-width: 1295px) {
   /*.nav{font-size: 1.8rem;} Vir si funciona el anidamiento*/
   nav {
     padding: 0 !important; }
@@ -181,6 +185,11 @@ p {
     padding: 0; }
   .main_title-size {
     font-size: 4.5rem; }
+  p {
+    font-size: 2rem;
+    line-height: 2.5rem; } }
+
+@media screen and (max-width: 905px) {
   p {
     font-size: 1.7rem;
     line-height: 2.5rem; } }
