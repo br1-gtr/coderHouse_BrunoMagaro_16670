@@ -23,6 +23,14 @@
         font-size: 1.7rem;
         line-height: 2.5rem;
     }
+    .carrusel{
+        height: auto;
+        width: 680px;
+    }
+    .video{
+        width: 680px;
+        height: 400px;
+    }
 }
 /*Mobile*/
 @media screen and (max-width: 767px ){
@@ -46,6 +54,15 @@
         &_info{height:70%}
     }
     .card-img-img{height: 95%;}
+    /*Carrusel/Videos*/
+    .carrusel{
+        height: 75%;
+        width: 75%;
+    }
+    .video{
+        width: 100%;
+        height: 400px;
+    }
     .footer{
         height: auto;
         &_rrss{

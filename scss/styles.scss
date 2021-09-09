@@ -118,6 +118,7 @@ p{
     height: 6rem;
 }
 .iconosFloat{
+    padding: 0;
     top: 23rem;
     right: 0;
     z-index: 10;
@@ -130,6 +131,19 @@ p{
         background-color: rgba(240, 255, 255, 0.568);
         border-radius: 50%;
     }
+}
+/*Carrusel*/
+.carrusel{
+    height: auto;
+    width: 850px;
+}
+/*Videos*/
+.video{
+    width: 850px;
+    height: 450px;
+    animation-duration: 2s;
+    animation-name:show;
+    border-radius: 2rem;
 }
 /*Footer*/
 .footer{
