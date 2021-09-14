@@ -2,12 +2,12 @@ html {
   font-size: 62.5%; }
 
 body {
+  overflow-x: hidden;
   font-family: 'Pangolin', cursive; }
 
 .container-fluid {
   padding: 0rem 1rem;
-  background: radial-gradient(circle, white 0%, #2d2d2d 60%, black 100%);
-  /*min-height: 850px;*/ }
+  background: radial-gradient(circle, white 0%, #2d2d2d 60%, black 100%); }
 
 .row {
   margin: 0; }
@@ -70,7 +70,8 @@ p {
 
 /*Levels*/
 .cardLevels {
-  height: auto; }
+  height: auto;
+  max-height: 98%; }
   .cardLevels_btn {
     /*EXTEND*/
     padding: 0.5rem 1rem;

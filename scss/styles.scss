@@ -2,11 +2,13 @@ $greenMain:rgba(3, 255, 3, 0.561);
 $colorMain:rgb(255, 255, 255);
 $bgMain:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(45,45,45,1) 60%, rgba(0,0,0,1) 100%);
 html{font-size: 62.5%;}
-body{font-family: 'Pangolin', cursive;}
+body{
+    overflow-x: hidden;
+    font-family: 'Pangolin', cursive;
+}
 .container-fluid{
     padding: 0rem 1rem;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(45,45,45,1) 60%, rgba(0,0,0,1) 100%);
-    /*min-height: 850px;*/
 }
 .row{margin: 0;}
 .header,.main,.footer{margin: 0px;}
@@ -63,6 +65,7 @@ p{
 /*Levels*/
 .cardLevels{
     height: auto;
+    max-height: 98%;
     &_btn{
         @extend .nav-item; /*EXTEND*/
         padding: 0.5rem 1rem;
