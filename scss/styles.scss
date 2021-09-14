@@ -6,7 +6,7 @@ body{font-family: 'Pangolin', cursive;}
 .container-fluid{
     padding: 0rem 1rem;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(45,45,45,1) 60%, rgba(0,0,0,1) 100%);
-    min-height: 850px;
+    /*min-height: 850px;*/
 }
 .header,.main,.footer{margin: 0px;}
 .header{
@@ -87,14 +87,6 @@ p{
     background-color: rgb(193, 251, 193);
     transition: 0.2s;
 }
-/*Carrusel*/
-.w-3{width: 3%;}
-.w-98{width: 98%;}
-.h-98{height: 98%;}
-.info-tab{
-    background-color: rgba(0, 255, 170, 0.472);
-    color: black;
-}
 /*Imagenes -Iconos*/
 .iconMobileNav{ 
     width: 5rem;
@@ -119,16 +111,16 @@ p{
 }
 .iconosFloat{
     padding: 0;
-    top: 23rem;
-    right: 0;
+    top: 2rem;
+    right: 0;/*correccion para centrar*/
     z-index: 10;
-    width: auto;
+    width: 100%;
     .iconMobile{ 
-        width: 6rem;
-        margin: 1rem;
-        padding: 1rem;
-        border: 2px solid rgba(3, 255, 3, 0.561);
-        background-color: rgba(240, 255, 255, 0.568);
+        width: 5rem;
+        margin: 0.4rem;
+        padding: 0.2rem;
+        border: 4px solid $greenMain;
+        background-color: $colorMain;
         border-radius: 50%;
     }
 }
