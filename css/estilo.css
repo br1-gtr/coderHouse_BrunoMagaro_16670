@@ -46,7 +46,8 @@ p {
 
 /*Main*/
 .main {
-  height: 75%;
+  height: auto;
+  min-height: 75%;
   border-radius: 0 0 1.5rem 1.5rem;
   background-color: white;
   border-bottom: 4px solid rgba(3, 255, 3, 0.561); }
@@ -57,7 +58,8 @@ p {
 
 /*CARDS*/
 .cardImgInfo {
-  height: 86%;
+  /*height: 86%;*/
+  height: auto;
   border: solid 2px black;
   border-radius: 2rem;
   background-color: rgba(148, 148, 148, 0.123); }
@@ -228,8 +230,6 @@ p {
     border-top: 4px solid rgba(3, 255, 3, 0.561); }
     .main_title-size {
       font-size: 4rem; }
-  .img-main {
-    margin-bottom: 3rem; }
   .divTop {
     height: auto; }
   .cardImgInfo {
